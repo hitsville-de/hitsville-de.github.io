@@ -295,7 +295,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -331,7 +331,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 section h3.section-subheading {
