@@ -30,5 +30,10 @@
     function eraseCookie(name) {
         createCookie(name,"",-1);
     }
+    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+        createCookie('cookie-notice-dismissed','true',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
 
 </script>
